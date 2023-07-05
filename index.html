@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assasin's Creed</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Jogos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades e Eventos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <img src="img/Logoassasins.png" alt="Logo do Assasins' Creed" class="container__logo">
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Jogos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Personagens</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Novidades e Eventos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ajuda</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+            <li class="opções__item"><a href="#" class="opções__link">Meus Jogos</a></li>
+        </ul>
+        
+            <h1 class="container__titulo">Assasin's Creed</h1>
+
+        <div class="container">
+            <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+            <a href="#" class="container__link">
+                <img src="img/Sacola.png" alt="Sacola" class="container__image">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="img/perfil.png" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+        <p class="banner__texto">Encontre nossa franquia de jogos!</p>
+        <input type="search" class="banner__pesquisa" placeholder="Qual será seu próximo jogo?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Jogos</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/assassinsodyssey.jpeg" alt="Assasin's Creed Odyssey"></div>
+                    <div class="swiper-slide"><img src="img/assassinsorigins.jpeg" alt="Assasin's Creed Origins"></div>
+                    <div class="swiper-slide"><img src="img/assassinsvalhalla.jpeg" alt="Assasin's Creed Valhalla"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed.png" alt="Assasin's Creed"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_2.png" alt="Assasin's Creed 2"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_Brotherhood.png" alt="Assasin's Creed Brotherhood"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_Revelations.png" alt="Assasin's Creed Revelations"></div>
+                    <div class="swiper-slide"><img src="img/assassins_blackflag.jpg" alt="Assasin's Creed black flag"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_Rogue.png" alt="Assasin's Creed Rogue"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_3.png" alt="Assasin's Creed 3"></div>
+                    <div class="swiper-slide"><img src="img/Assassins_Creed_3_Liberation.png" alt="Assasin's Creed 3 Liberation"></div>
+                    <div class="swiper-slide"><img src="img/assassins_unity.webp" alt="Assasin's Creed Unity"></div>
+                    <div class="swiper-slide"><img src="img/assassins_syndicate.jpeg" alt="Assasin's Creed Syndicate"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Personagens</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/desmond miles.png" alt="Personagem Desmond Miles"></div>
+                    <div class="swiper-slide"><img src="img/altair ibn-la'ahad.jpg" alt="Personagem Altair ibn-la ahad"></div>
+                    <div class="swiper-slide"><img src="img/ezio auditore firenze.jpg" alt="Personagem Enzio de Firenze"></div>
+                    <div class="swiper-slide"><img src="img/ratonhnhaké.jpg" alt="Personagem ratonhnhaké"></div>
+                    <div class="swiper-slide"><img src="img/aveline de grandpre.jpg" alt="Personagem Aveline"></div>
+                    <div class="swiper-slide"><img src="img/haytham kenway.jpg" alt="Personagem Haytham Kenway"></div>
+                    <div class="swiper-slide"><img src="img/edward kenway.jpg" alt="Personagem Edward Kenway"></div>
+                    <div class="swiper-slide"><img src="img/shay cormac.jpg" alt="Personagem Shay Cormac"></div>
+                    <div class="swiper-slide"><img src="img/arno victor dorian.jpg" alt="Personagem Arno Victor"></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <!-- 1º linha -->
+            <div class="card__descrição">
+                <!-- 1º coluna -->
+                <div class="descrição">
+                    <h3 class="descrição__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Resident Evil</h2>
+                    <p class="descrição__texto"> É um jogo eletrônico de survival horror e tiro em terceira pessoa desenvolvido e publicado pela Capcom, lançado originalmente para o GameCube em 2005.</p>
+                </div>
+                <!-- 2º coluna -->
+                <img src="img/residentevil.webp" class="descrição__imagem">
+            </div>
+    
+            <!-- 2º linha -->
+            <div class="card__botões">
+                <!-- 1º coluna -->
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/favoritos.png" alt="Favoritar livro"></li>
+                    <li class="botões__item"><img src="img/Sacola.png" alt="Adicionar no carrinho de compras"></li>
+                </ul>
+                <!-- 2º coluna -->
+                <a href="#" class="botões__ancora">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações dos jogos, informações e muito mais!</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr />
+
+    <footer class="rodapé">
+        <h2 class="rodapé__titulo">PlayStation</h2>
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Produtos</li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">PS5</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">PS4</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">PS VR2</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">PS Plus</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Acessórios</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Jogos</a>
+            </li>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Valores</li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Meio Ambiente</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Acessibilidade</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Segurança Online</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Diversidade, equidade e inclusão</a>
+        </ul>
+
+        <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">Suporte</li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Central de suporte</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Equipe de segurança PlayStation</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Status da PSN</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Reparos da PlayStation</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Redefinição de senha</a>
+            </li>
+            <li class="lista-rodapé__item">
+                <a href="#" class="lista-rodapé__link">Manuais</a>
+            </li>
+        </ul>
+    </footer>
+
+    <footer class="rodape__copy">
+    
+        <div class="rodapé__capcom">
+            <h2 class="rodapé__titulo-segundo">©CAPCOM CO., LTD. ALL RIGHTS RESERVED.</h2>
+            <p class="rodapé__texto">RESIDENT EVIL is a trademark and/or registered trademark of CAPCOM CO., LTD. and/or its subsidiaries in the U.S. and/or other countries.</p>
+        </div>
+    
+    </footer>
+    
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
